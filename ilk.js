@@ -29,3 +29,6 @@ console.log(mesaj);
 // yukarıdaki if ifadesini burada üçlü ifade ile tekrar yazdık
 mesaj += (cinsiyet == "erkek") ? "bayım" : "hanım";
 console.log(mesaj);
+/* 
+https://playcode.io/empty-javascript kodu bu sitede denedik
+*/
