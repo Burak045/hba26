@@ -10,11 +10,11 @@ let mesaj = "";
 if( saat < 6 ){
   mesaj = "İyi geceler";
 }else if (saat >=6 && saat < 12) {
-  mesaj = "Günaydin";
+  mesaj = "Günaydın";
 }else if ( saat >= 12 && saat < 18) {
   mesaj =  "İyi günler";
 }else{
-  mesaj = "iyi akşamlar";
+  mesaj = "İyi akşamlar";
 }
  
  if( cinsiyet == "erkek") {
@@ -23,5 +23,5 @@ if( saat < 6 ){
    mesaj = mesaj +  " hanımefendi";
 }
 
-console.log("cinsiyet:" , cinsiyet, "Saat:", saat);
+console.log("Cinsiyet:", cinsiyet, "Saat:", saat);
 console.log(mesaj);
