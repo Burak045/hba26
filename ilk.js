@@ -25,3 +25,7 @@ if( saat < 6 ){
 
 console.log("Cinsiyet:", cinsiyet, "Saat:", saat);
 console.log(mesaj);
+
+// yukarıdaki if ifadesini burada üçlü ifade ile tekrar yazdık
+mesaj += (cinsiyet == "erkek") ? "bayım" : "hanım";
+console.log(mesaj);
